@@ -1,0 +1,16 @@
+{
+  "name": "audiovisual",
+  "version": "1.0.0",
+  "description": "proyecto audiovisual",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "dev": "node --watch app.js",
+    "test": "module"
+  },
+  "keywords": [
+    "back"
+  ],
+  "author": "Diego",
+  "license": "MIT"
+}
