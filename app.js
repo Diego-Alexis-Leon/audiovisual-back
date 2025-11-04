@@ -4,7 +4,8 @@ import cors from 'cors'
 
 import routerProducts from './routesProducts.js'
 import { errorHandler } from './middelware/errors.js'
-//import connectionMongoDB from './config/db.js'
+import connectionMongoDB from './config/db.js'
+console.log(connectionMongoDB);
 
 dotenv.config()
 const app = express()
